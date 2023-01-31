@@ -24,6 +24,7 @@ module.exports = function (hljs) {
       },
       {
         begin: "@(?=([aceprsv]{1}|initiator))",
+        end: "[aceprsv]{1}|initiator",
       },
     ],
   };
