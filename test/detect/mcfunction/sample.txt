@@ -1,0 +1,8 @@
+# Highlight.js test for some new mcfunction
+
+tell @a Hello World
+
+say Bye...
+playsound random.explode
+teleport @p ~10 ~10 ~10 true
+say OUCH!
