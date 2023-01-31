@@ -37,7 +37,7 @@ If you're using Node / Webpack / Rollup / Browserify, etc., require the language
 var hljs = require('highlight.js');
 var hljsMcfunction = require('highlightjs-mcfunction');
 
-hljs.registerLanguage("mcfunction", hljsYourLanguage);
+hljs.registerLanguage("mcfunction", hljsMcfunction);
 hljs.highlightAll();
 ```
 
