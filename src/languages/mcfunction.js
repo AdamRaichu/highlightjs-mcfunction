@@ -1,8 +1,8 @@
 /*
- Language: mcfunction
- Category: scripting
- Author: AdamRaichu
- Description: The language for Minecraft's function files.
+Language: mcfunction
+Category: scripting
+Author: AdamRaichu
+Description: The language for Minecraft's function files.
 */
 module.exports = function (hljs) {
   return {
@@ -21,6 +21,9 @@ module.exports = function (hljs) {
         begin: "{",
         end: "}",
         subLanguage: "json",
+      },
+      {
+        begin: "@(?=([aceprsv]{1}|initiator))",
       },
     ],
   };
