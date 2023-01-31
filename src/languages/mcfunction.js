@@ -14,7 +14,15 @@ module.exports = function (hljs) {
     },
     case_insensitive: true,
     disableAutodetect: false,
-    contains: [],
+    contains: [
+      hljs.APOS_STRING_MODE,
+      hljs.QUOTE_STRING_MODE,
+      {
+        begin: "{",
+        end: "}",
+        subLanguage: "json",
+      },
+    ],
   };
 };
 

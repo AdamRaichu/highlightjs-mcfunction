@@ -6,3 +6,5 @@ say Bye...
 playsound random.explode
 teleport @p ~10 ~10 ~10 true
 say OUCH!
+
+give @p minecraft:diamond_sword{display:{Lore:["\"A legendary weapon\""]}} 1
